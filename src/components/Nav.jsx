@@ -4,9 +4,9 @@ const Nav = () => {
   return (
     <nav className="bg-primary font-inconsolata">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center py-2">
-          <h1 className="font-bold text-3xl text-white">Graphino</h1>
-          <ul className="flex items-center gap-6 text-white">
+        <div className="flex justify-between items-center py-4">
+          <h1 className="font-bold text-4xl text-white">Graphino</h1>
+          <ul className="flex items-center gap-6 text-white text-lg">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -18,7 +18,7 @@ const Nav = () => {
             </li>
             <li>
               <Link to="/about">
-                <button className="bg-white rounded-lg py-2 px-4 text-black font-medium">
+                <button className="bg-white rounded-lg py-2 px-6 text-black font-medium">
                 Start Learning
                 </button>
               </Link>

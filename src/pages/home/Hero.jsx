@@ -2,24 +2,24 @@ import HeroImage from "../../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <header className=" flex justify-between">
-      <div className=" w-1/2 py-32">
+    <header className=" flex justify-between items-center">
+      <div className=" w-1/2 py-40">
         <h2 className="text-secondary text-lg">
           - Learn graph algorithms with visualization -
         </h2>
-        <h1 className="text-5xl font-bold capitalize">
+        <h1 className="text-5xl font-extrabold capitalize">
           The best way to learn graph algorithms
         </h1>
-        <p className="text-gray pt-5 max-w-lg">
+        <p className=" pt-5 max-w-3xl text-lg">
           Learn graph algorithms through visual simulation and interactive play
           with GraphPlay. Gain a deep understanding of graph theory and master
           essential algorithms in no time. Try it now!
         </p>
-        <div className="pt-8 flex gap-6">
-          <button className="bg-primary rounded-lg py-2 px-4 text-white font-medium">
+        <div className="pt-8 flex gap-6 ">
+          <button className="bg-primary rounded-lg py-2 px-5 text-white font-medium">
             Start the adventure
           </button>
-          <button className="bg-gray rounded-lg py-2 px-4 text-white font-medium flex justify-between gap-2">
+          <button className="bg-gray rounded-lg py-2 px-5 text-white font-medium flex justify-between gap-2">
             <svg
               width="22"
               height="22"
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="py-8">
-        <img src={HeroImage} alt="hero" />
+        <img src={HeroImage} alt="hero"  className="w-[450px] h-[450px]"/>
       </div>
     </header>
   );
